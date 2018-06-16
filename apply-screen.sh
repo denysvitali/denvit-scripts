@@ -1,2 +1,3 @@
 #!/bin/bash
-nitrogen --restore && ~/.config/polybar/launch.sh
+nitrogen --restore
+~/.config/polybar/launch.sh
