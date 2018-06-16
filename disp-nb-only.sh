@@ -4,9 +4,9 @@ intel_test=$?
 
 if [ $intel_test != 0 ]; then
     echo "Intel"
-    ~/.screenlayout/supsi-intel.sh
+    ~/.screenlayout/nb-only-intel.sh
 else
     echo "Modesetting"
-    ~/.screenlayout/supsi.sh
+    ~/.screenlayout/nb-only.sh
 fi;
 ~/scripts/apply-screen.sh

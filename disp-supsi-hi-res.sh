@@ -4,9 +4,9 @@ intel_test=$?
 
 if [ $intel_test != 0 ]; then
     echo "Intel"
-    ~/.screenlayout/supsi-intel.sh
+    ~/.screenlayout/supsi-hi-res-intel.sh
 else
     echo "Modesetting"
-    ~/.screenlayout/supsi.sh
+    ~/.screenlayout/supsi-hi-res.sh
 fi;
 ~/scripts/apply-screen.sh
